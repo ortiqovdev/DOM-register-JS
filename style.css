@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+body {
+    background-image: url('./istockphoto-980940618-170667a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-box {
+    height: 100px;
+    width: 1000px;
+    background-color: aliceblue;
+    box-sizing: content-box;
+    margin-left: 300px;
+    margin-top: 20px;
+    box-shadow: 4px 11px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+h1 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    color: rgb(45, 152, 229);
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.box-one {
+    height: 500px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 4px 11px 10px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.box-two {
+    height: 350px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 4px 11px 10px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.sign-up {
+    margin-left: 100px;
+    color: rgb(45, 152, 229);
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 230px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input1 {
+    display: flex;
+}
+
+.check1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(69, 69, 69);
+    margin: 25px;
+}
+
+.input2 {
+    display: flex;
+}
+
+.check2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(69, 69, 69);
+    margin: 25px;
+}
+
+.input3 {
+    display: flex;
+}
+
+.check3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(69, 69, 69);
+    margin: 25px;
+}
+
+.input4 {
+    display: flex;
+}
+
+.check4 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(69, 69, 69);
+    margin: 25px;
+}
+
+.input5 {
+    display: flex;
+}
+
+.check5 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(69, 69, 69);
+    margin: 25px;
+}
+
+.btn-one {
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: rgb(79, 79, 79);
+    border-color: rgb(77, 77, 77);
+    box-shadow: 0px 0px 16px 10px rgba(66, 66, 66, 0.51);
+color: aliceblue;
+border-radius: 10px;
+  
+}
+
+.btn-one:hover {
+    transform: translateX(200px);
+    transition: all .2s ease-in;
+    
+}
+
+.sign-in {
+    margin-left: 160px;
+    color: rgb(45, 152, 229);
+}
+.btn-two{
+    color: aliceblue;
+    margin-left: 110px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(79, 79, 79);
+    border-color: rgb(77, 77, 77);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 10px rgba(66, 66, 66, 0.51);
+}
+.btn-two:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(153, 255, 147);
+    border-color: rgb(67, 255, 105);
+    box-shadow: 0px 0px 16px 10px rgba(4, 240, 0, 0.51);
+ 
+}
